@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "recipewebapp"
+version = "0.1.0"
+description = ""
+authors = ["flg1973 <100741585+flg1973@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+django = "3.2.16"
+django-crispy-forms = "1.14.0"
+dj-database-url = "^1.2.0"
+psycopg2-binary = "^2.9.5"
+whitenoise = "^6.3.0"
+brotli = "^1.0.9"
+gunicorn = "^20.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
